@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+  <head>
+    <title>Angular Project</title>
+
+    <!-- styling libraries -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js'></script>
+    <!-- angular elements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src='app.js'></script>
+    <script src='factories/orderFactory.js'></script>
+    <script src='factories/productFactory.js'></script>
+    <script src='controllers/orderController.js'></script>
+    <script src='controllers/productController.js'></script>
+
+  </head>
+  <body>
+    <div ng-controller='productController' class="">
+      {{products}}
+    </div>
+    <div ng-controller='orderController' class="">
+      {{orders}}
+    </div>
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
