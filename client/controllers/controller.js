@@ -1,4 +1,4 @@
-app.controller('productController', [
+app.controller('controller', [
     '$scope',
     'productFactory',
     function($scope, productFactory) {
@@ -39,6 +39,7 @@ app.controller('ordersController', [
 
         productFactory.index(setProducts);
         $scope.update = function(id) {
+          console.log(`This is the ID: ${id}`);
             productFactory.update({
                 id: id,
                 quantity: 1
